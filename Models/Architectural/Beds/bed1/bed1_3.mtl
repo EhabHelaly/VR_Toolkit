@@ -1,0 +1,50 @@
+# Blender MTL File: 'None'
+# Material Count: 4
+
+newmtl Standard_4
+Ns 92.156863
+Ka 1.000000 1.000000 1.000000
+Kd 0.467451 0.467451 0.467451
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd ..\..\Textures\fabric_white_1.jpg
+map_Bump ..\..\Textures\fabric_n.jpg
+
+newmtl st_leather
+Ns 92.156863
+Ka 1.000000 1.000000 1.000000
+Kd 0.652549 0.724706 0.611765
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd ..\..\Textures\fabric_green_1.jpg
+map_Bump ..\..\Textures\fabric_n.jpg
+
+newmtl st_textile
+Ns 92.156863
+Ka 1.000000 1.000000 1.000000
+Kd 0.683922 0.445490 0.323137
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd ..\..\Textures\fabric_texture_8_3.jpg
+map_Bump ..\..\Textures\fabric_texture_8_n.jpg
+
+newmtl st_textile2
+Ns 92.156863
+Ka 1.000000 1.000000 1.000000
+Kd 0.683922 0.427000 0.070771
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd ..\..\Textures\fabric_texture_2.jpg
+map_Bump ..\..\Textures\fabric_texture_4_n.jpg
