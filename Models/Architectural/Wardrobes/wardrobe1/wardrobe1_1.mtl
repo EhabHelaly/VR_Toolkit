@@ -1,0 +1,37 @@
+# Blender MTL File: 'None'
+# Material Count: 3
+
+newmtl legs
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 0.752941 0.250980 0.116078
+Ks 0.449020 0.449020 0.449020
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd ..\..\Textures\wood_white_10.JPG
+map_bump ..\..\Textures\wood_white_10_n.JPG
+
+newmtl shelfs
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 0.555294 0.646275 0.746667
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd ..\..\Textures\textile_blue_1.JPG
+
+newmtl wood
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 0.771765 0.696471 0.470588
+Ks 0.449020 0.449020 0.449020
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd ..\..\Textures\wood_white_10.JPG
+map_bump ..\..\Textures\wood_white_10_n.JPG
