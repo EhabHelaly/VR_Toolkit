@@ -1,0 +1,38 @@
+# Blender MTL File: 'None'
+# Material Count: 3
+
+newmtl box
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.586667 0.207059 0.131765
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd ..\..\Textures\wood_light_2.JPG
+map_Bump ..\..\Textures\wood_light_2_n.JPG
+
+newmtl box_corp
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.561569 0.730980 0.470588
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd ..\..\Textures\wood_light_2.JPG
+map_Bump ..\..\Textures\wood_light_2_n.JPG
+
+newmtl st_wood
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.790588 0.784314 0.743529
+Ks 0.449020 0.449020 0.449020
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd ..\..\Textures\wood_dark_13.JPG
+map_Bump ..\..\Textures\wood_dark_13_n.JPG
