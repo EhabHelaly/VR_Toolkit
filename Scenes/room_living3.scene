@@ -1,0 +1,102 @@
+light_type 2
+light_power 2.28251
+light_position 0 16.7769 0 
+light_color 1 1 1 
+light_direction 0 1 1 
+
+light_type 2
+light_power 2.26271
+light_position 10 16.7769 0 
+light_color 1 1 1 
+light_direction 0 1 1 
+
+light_type 0
+light_power 121
+light_position 0 10 0 
+light_color 1 1 1 
+light_direction 0 1 1 
+
+light_type 0
+light_power 121
+light_position 0 10 0 
+light_color 1 1 1 
+light_direction 0 1 1 
+
+light_type 0
+light_power 121
+light_position 0 10 0 
+light_color 1 1 1 
+light_direction 0 1 1 
+
+load Models\Architectural\Rooms\room3\room3.obj
+material Models\Architectural\Rooms\room3\room3_1.mtl
+move 0 0 0 
+rotate 0 0 0 
+scale 1 1 1 
+
+load E:\Programming\GameEngine\Models\Architectural\Shelfs\shelf2\shelf2.obj
+material E:\Programming\GameEngine\Models\Architectural\Shelfs\shelf2\shelf2_5.mtl
+move 16.5731 0 1.3695 
+rotate 0 -89.4001 0 
+scale 1.331 1.331 1.331 
+
+load E:\Programming\GameEngine\Models\Architectural\Sofas\sofa5\sofa5.obj
+material E:\Programming\GameEngine\Models\Architectural\Sofas\sofa5\sofa5_1.mtl
+move -18.7548 0.85 1.4191 
+rotate 0 90.02 0 
+scale 1 1 1 
+
+load E:\Programming\GameEngine\Models\Architectural\Chairs\chair3\chair3.obj
+material E:\Programming\GameEngine\Models\Architectural\Chairs\chair3\chair3_1.mtl
+move -10.3915 0 17.3722 
+rotate 0 179.18 0 
+scale 1 1 1 
+
+load E:\Programming\GameEngine\Models\Architectural\Chairs\chair3\chair3.obj
+material E:\Programming\GameEngine\Models\Architectural\Chairs\chair3\chair3_1.mtl
+move -10.3927 0 -14.255 
+rotate 0 -1.24 0 
+scale 1 1 1 
+
+load E:\Programming\GameEngine\Models\Architectural\Chairs\chair3\chair3.obj
+material E:\Programming\GameEngine\Models\Architectural\Chairs\chair3\chair3_1.mtl
+move -0.694643 0 -14.0031 
+rotate 0 -0.7 0 
+scale 1 1 1 
+
+load E:\Programming\GameEngine\Models\Architectural\Chairs\chair3\chair3.obj
+material E:\Programming\GameEngine\Models\Architectural\Chairs\chair3\chair3_1.mtl
+move -0.817011 0 17.1291 
+rotate 0 -178.72 0 
+scale 1 1 1 
+
+load E:\Programming\GameEngine\Models\Architectural\Carpets\carpet1\carpet1.obj
+material E:\Programming\GameEngine\Models\Architectural\Carpets\carpet1\carpet1_5.mtl
+move -6.1064 0 3.66136 
+rotate 0 0 0 
+scale 3.45227 3.45227 3.45227 
+
+load E:\Programming\GameEngine\Models\Architectural\Others\other1\other1.obj
+material E:\Programming\GameEngine\Models\Architectural\Others\other1\other1_3.mtl
+move 7.30018 0 27.0885 
+rotate 0 -177.52 -0.62 
+scale 1.21 1.21 1.21 
+
+load E:\Programming\GameEngine\Models\Architectural\Tables\table19\table19.obj
+material E:\Programming\GameEngine\Models\Architectural\Tables\table19\table19_4.mtl
+move -6.93177 0 1.33581 
+rotate 0 -90.18 0 
+scale 0.909091 0.909091 0.909091 
+
+load E:\Programming\GameEngine\Models\Architectural\Decoration\horse\horse.obj
+material E:\Programming\GameEngine\Models\Architectural\Decoration\horse\horse.mtl
+move -20.8796 0 -19.1089 
+rotate 0 -54.18 0 
+scale 2.14359 2.14359 2.14359 
+
+load E:\Programming\GameEngine\Models\Architectural\Decoration\horse\horse.obj
+material E:\Programming\GameEngine\Models\Architectural\Decoration\horse\horse.mtl
+move -22.7231 0 22.4322 
+rotate 0 35.96 0 
+scale 1.94872 1.94872 1.94872 
+

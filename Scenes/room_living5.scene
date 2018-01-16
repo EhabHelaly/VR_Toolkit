@@ -1,0 +1,156 @@
+light_type 2
+light_power 1.70001
+light_position 20 16.7769 13 
+light_color 1 1 1 
+light_direction 0 1 1 
+
+light_type 2
+light_power 1.71489
+light_position -15 16.7769 0 
+light_color 1 1 1 
+light_direction 0 1 1 
+
+light_type 2
+light_power 1.70001
+light_position 26 16.7769 -15 
+light_color 1 1 1 
+light_direction 0 1 1 
+
+light_type 0
+light_power 133.1
+light_position 0 10 0 
+light_color 1 1 1 
+light_direction 0 1 1 
+
+light_type 0
+light_power 133.1
+light_position 0 10 0 
+light_color 1 1 1 
+light_direction 0 1 1 
+
+load Models\Architectural\Rooms\room5\room5.obj
+material Models\Architectural\Rooms\room5\room5_1.mtl
+move 0 0 0 
+rotate 0 0 0 
+scale 1 1 1 
+
+load Models\Architectural\Lighting\luster\luster.obj
+material Models\Architectural\Lighting\luster\luster.mtl
+move -15 13 0 
+rotate 0 0 0 
+scale 1 1 1 
+
+load Models\Architectural\Lighting\luster\luster.obj
+material Models\Architectural\Lighting\luster\luster.mtl
+move 20 13 13 
+rotate 0 0 0 
+scale 1 1 1 
+
+load Models\Architectural\Lighting\luster\luster.obj
+material Models\Architectural\Lighting\luster\luster.mtl
+move 26 13 -15 
+rotate 0 0 0 
+scale 1 1 1 
+
+load Models\Architectural\Sofas\sofa6\sofa6.obj
+material Models\Architectural\Sofas\sofa6\sofa6_4.mtl
+move -9.11484 0 -8.35362 
+rotate 0 0 0 
+scale 1 1 1 
+
+load Models\Architectural\Sofas\sofa3\sofa3.obj
+material Models\Architectural\Sofas\sofa3\sofa3_1.mtl
+move 26.3738 -0.00999999 13.123 
+rotate 0 -90.4 0.06 
+scale 1 1 1 
+
+load Models\Architectural\Chairs\chair16\chair16.obj
+material Models\Architectural\Chairs\chair16\chair16_2.mtl
+move -23.0797 0 0.443426 
+rotate 0 91.58 0 
+scale 1 1 1 
+
+load Models\Architectural\Chairs\chair16\chair16.obj
+material Models\Architectural\Chairs\chair16\chair16_2.mtl
+move 4.41192 0 0.748926 
+rotate 0 -92.24 0 
+scale 1 1 1 
+
+load Models\Architectural\Chairs\chair17\chair17.obj
+material Models\Architectural\Chairs\chair17\chair17_3.mtl
+move 19.992 0 4.78357 
+rotate 0 -1.78 0 
+scale 1 1 1 
+
+load Models\Architectural\Chairs\chair17\chair17.obj
+material Models\Architectural\Chairs\chair17\chair17_3.mtl
+move 19.8018 0 22.0992 
+rotate 0 -178.5 0 
+scale 1 1 1 
+
+load Models\Architectural\Chairs\chair8\chair8.obj
+material Models\Architectural\Chairs\chair8\chair8_1.mtl
+move 19.3848 0 -20.4993 
+rotate 0 48.52 0 
+scale 1 1 1 
+
+load Models\Architectural\Shelfs\shelf5\shelf5.obj
+material Models\Architectural\Shelfs\shelf5\shelf5_2.mtl
+move 36.4621 0 -15.7347 
+rotate 0 -180.5 0 
+scale 1.26661 1.26661 1.26661 
+
+load Models\Architectural\Shelfs\shelf2\shelf2.obj
+material Models\Architectural\Shelfs\shelf2\shelf2_2.mtl
+move -7.98942 0 23.2814 
+rotate 0 -178.3 0 
+scale 1 1 1 
+
+load Models\Architectural\Carpets\carpet1\carpet1.obj
+material Models\Architectural\Carpets\carpet1\carpet1_58.mtl
+move 19.2496 0 13.8398 
+rotate 0 0 0 
+scale 1.94872 1.94872 1.94872 
+
+load Models\Architectural\Carpets\carpet3\carpet3.obj
+material Models\Architectural\Carpets\carpet3\carpet3_1.mtl
+move 26.5423 0 -15.3621 
+rotate 0 0 0 
+scale 1.331 1.331 1.331 
+
+load Models\Architectural\Chairs\chair17\chair17.obj
+material Models\Architectural\Chairs\chair17\chair17_3.mtl
+move 13.4982 0 4.9295 
+rotate 0 2.78 0 
+scale 1 1 1 
+
+load Models\Architectural\Chairs\chair17\chair17.obj
+material Models\Architectural\Chairs\chair17\chair17_3.mtl
+move 13.2959 0 22.2823 
+rotate 0 -181.44 0 
+scale 1 1 1 
+
+load Models\Architectural\Carpets\carpet1\carpet1.obj
+material Models\Architectural\Carpets\carpet1\carpet1_56.mtl
+move -7.84786 0 0.249905 
+rotate 0 89.42 0 
+scale 2.35795 2.35795 2.35795 
+
+load Models\Architectural\Tables\table4\table4.obj
+material Models\Architectural\Tables\table4\table4_1.mtl
+move -9.11224 0.11 1.57445 
+rotate 0 -6.32 0 
+scale 1 1 1 
+
+load Models\Architectural\Tables\table1\table1.obj
+material Models\Architectural\Tables\table1\table1_1.mtl
+move 16.3608 0 -15.6384 
+rotate 0 0 0 
+scale 1 1 1 
+
+load Models\Architectural\Tables\table15\table15.obj
+material Models\Architectural\Tables\table15\table15_1.mtl
+move 17.7 0 13.471 
+rotate 0 -91.68 0 
+scale 1 1 1 
+

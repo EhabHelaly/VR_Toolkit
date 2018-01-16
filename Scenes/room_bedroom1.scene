@@ -1,0 +1,102 @@
+light_type 2
+light_power 3.31285
+light_position 0 16.7769 0 
+light_color 1 1 1 
+light_direction 0 1 1 
+
+light_type 0
+light_power 259.374
+light_position 0 10 0 
+light_color 1 1 1 
+light_direction 0 1 1 
+
+light_type 0
+light_power 259.374
+light_position 0 10 0 
+light_color 1 1 1 
+light_direction 0 1 1 
+
+light_type 0
+light_power 235.795
+light_position 0 10 0 
+light_color 1 1 1 
+light_direction 0 1 1 
+
+light_type 0
+light_power 235.795
+light_position 0 10 0 
+light_color 1 1 1 
+light_direction 0 1 1 
+
+load Models\Architectural\Rooms\room1\room1.obj
+material Models\Architectural\Rooms\room1\room1_2.mtl
+move 0 -0.34 0 
+rotate 0 0 0 
+scale 1 1 1 
+
+load Models\Architectural\Appliances\tv2\tv2.obj
+material Models\Architectural\Appliances\tv2\tv2.mtl
+move -10.2297 6.72 28.7283 
+rotate 0 -179.839 0 
+scale 1.76274 1.76274 1.76274 
+
+load Models\Architectural\Beds\bed13\bed13.obj
+material Models\Architectural\Beds\bed13\bed13_1.mtl
+move 0.304875 0 -13.2331 
+rotate 0 0 0 
+scale 1 1 1 
+
+load Models\Architectural\Lighting\luster1\luster1.obj
+material Models\Architectural\Lighting\luster1\luster1.mtl
+move 0 23.47 0 
+rotate 0 0 0 
+scale 2.14359 2.14359 2.14359 
+
+load Models\Architectural\Wardrobes\wardrobe3\wardrobe3.obj
+material Models\Architectural\Wardrobes\wardrobe3\wardrobe3_1.mtl
+move -30.4726 0 -7.93261 
+rotate 0 90.86 0 
+scale 1.61051 1.61051 1.61051 
+
+load Models\Architectural\Chairs\chair8\chair8.obj
+material Models\Architectural\Chairs\chair8\chair8_1.mtl
+move 24.5677 0 -15.5867 
+rotate 0 -35.8 0 
+scale 1.61051 1.61051 1.61051 
+
+load Models\Architectural\Chairs\chair8\chair8.obj
+material Models\Architectural\Chairs\chair8\chair8_1.mtl
+move 24.6136 0 -2.03613 
+rotate 0 -136.34 0 
+scale 1.61051 1.61051 1.61051 
+
+load Models\Architectural\Tables\table9\table9.obj
+material Models\Architectural\Tables\table9\table9_1.mtl
+move 19.5229 0 -7.50544 
+rotate 0 0 0 
+scale 1 1 1 
+
+load Models\Architectural\Carpets\carpet1\carpet1.obj
+material Models\Architectural\Carpets\carpet1\carpet1_1.mtl
+move 0.303692 -0.234 9.55052 
+rotate 0 -87.74 0 
+scale 3.92176 3.92176 3.92176 
+
+load Models\Architectural\Tables\table5\table5.obj
+material Models\Architectural\Tables\table5\table5_1.mtl
+move -10.2992 -0.345 26.2522 
+rotate 0 -180.076 0 
+scale 1.70689 1.70689 1.70689 
+
+load Models\Architectural\Wardrobes\wardrobe10\wardrobe10.obj
+material Models\Architectural\Wardrobes\wardrobe10\wardrobe10_1.mtl
+move -11.7223 0 -20 
+rotate 0 0 0 
+scale 1.77584 1.77584 1.77584 
+
+load Models\Architectural\Wardrobes\wardrobe10\wardrobe10.obj
+material Models\Architectural\Wardrobes\wardrobe10\wardrobe10_1.mtl
+move 12.3014 0 -20 
+rotate 0 0 0 
+scale 1.77584 1.77584 1.77584 
+

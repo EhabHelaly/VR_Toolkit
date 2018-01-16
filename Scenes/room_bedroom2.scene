@@ -1,0 +1,108 @@
+light_type 2
+light_power 3.31285
+light_position 0 16.7769 0 
+light_color 1 1 1 
+light_direction 0 1 1 
+
+light_type 0
+light_power 259.374
+light_position 0 10 0 
+light_color 1 1 1 
+light_direction 0 1 1 
+
+light_type 0
+light_power 259.374
+light_position 0 10 0 
+light_color 1 1 1 
+light_direction 0 1 1 
+
+light_type 0
+light_power 235.795
+light_position 0 10 0 
+light_color 1 1 1 
+light_direction 0 1 1 
+
+light_type 0
+light_power 235.795
+light_position 0 10 0 
+light_color 1 1 1 
+light_direction 0 1 1 
+
+load Models\Architectural\Rooms\room4\room4.obj
+material Models\Architectural\Rooms\room4\room4_1.mtl
+move 0.234789 -0.2875 -0.143175 
+rotate 0 0 0 
+scale 1 1 1 
+
+load Models\Architectural\Lighting\luster2\luster2.obj
+material Models\Architectural\Lighting\luster2\luster2.mtl
+move 0.076875 21.3125 2.72943 
+rotate 0 0 0 
+scale 1 1 1 
+
+load Models\Architectural\Beds\bed14\bed14.obj
+material Models\Architectural\Beds\bed14\bed14_1.mtl
+move -25.2931 0 -11.4418 
+rotate 0 0 0 
+scale 1.67342 1.67342 1.67342 
+
+load Models\Architectural\Beds\bed15\bed15.obj
+material Models\Architectural\Beds\bed15\bed15_1.mtl
+move 7.51616 0 -18.7909 
+rotate 0 91.6 0.84 
+scale 1.42825 1.42825 1.42825 
+
+load Models\Architectural\Carpets\carpet1\carpet1.obj
+material Models\Architectural\Carpets\carpet1\carpet1_65.mtl
+move 2.24433 -0.286 6.64153 
+rotate 0 90 0 
+scale 3.29373 3.29373 3.29373 
+
+load Models\Architectural\Shelfs\shelf1\shelf1.obj
+material Models\Architectural\Shelfs\shelf1\shelf1_1.mtl
+move -0.146484 0 20.0024 
+rotate 0 180.025 0 
+scale 7.40025 7.40025 7.40025 
+
+load Models\Architectural\Others\other3\other3.obj
+material Models\Architectural\Others\other3\other3_1.mtl
+move 14.0567 0 16.007 
+rotate 0 -136.525 0 
+scale 3.13843 3.13843 3.13843 
+
+load Models\Architectural\Tables\table3\table3.obj
+material Models\Architectural\Tables\table3\table3_1.mtl
+move 2.00444 0 4.51778 
+rotate 0 0 0 
+scale 1 1 1 
+
+load Models\Architectural\Chairs\chair11\chair11.obj
+material Models\Architectural\Chairs\chair11\chair11_1.mtl
+move 2.37399 -0.0640001 -2.54144 
+rotate 0 -21.255 0 
+scale 1.08243 1.08243 1.08243 
+
+load Models\Architectural\Chairs\chair11\chair11.obj
+material Models\Architectural\Chairs\chair11\chair11_1.mtl
+move -6.74516 0 4.54851 
+rotate 0 130 0 
+scale 1.12616 1.12616 1.12616 
+
+load Models\Architectural\Appliances\Notebook2\Lowpoly_Notebook_2.obj
+material Models\Architectural\Appliances\Notebook2\Lowpoly_Notebook_2.mtl
+move 0.678108 4.0625 5.80232 
+rotate 0 -79.1 0 
+scale 1 1 1 
+
+load E:\Programming\GameEngine\Models\Architectural\Chairs\chair14\chair14.obj
+material E:\Programming\GameEngine\Models\Architectural\Chairs\chair14\chair14_1.mtl
+move -15.0493 0 15.853 
+rotate 0 171.6 0 
+scale 1 1 1 
+
+load E:\Programming\GameEngine\Models\Architectural\Chairs\chair14\chair14.obj
+material E:\Programming\GameEngine\Models\Architectural\Chairs\chair14\chair14_1.mtl
+move 17.5955 0 -2.03884 
+rotate 0 -79.52 0 
+scale 1 1 1 
+
