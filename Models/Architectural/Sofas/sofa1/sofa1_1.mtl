@@ -1,0 +1,37 @@
+# Blender MTL File: 'None'
+# Material Count: 3
+
+newmtl fabric
+Ns 29.411765
+Ka 0.516367 0.516367 0.516367
+Kd 0.874500 0.337300 0.337300
+Ks 0.350000 0.350000 0.350000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd ../../Textures/fabric_texture_31.jpg
+map_Bump ../../Textures/fabric_n.jpg
+
+newmtl pillow
+Ns 29.411765
+Ka 0.739867 0.739867 0.739867
+Kd 0.600000 0.725500 0.894100
+Ks 0.350000 0.350000 0.350000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd ../../Textures/fabric_texture_31.jpg
+
+newmtl wood
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd ../../Textures/wood_white_2.jpg
+
