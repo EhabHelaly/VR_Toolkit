@@ -1,0 +1,24 @@
+# Blender MTL File: 'None'
+# Material Count: 2
+
+newmtl st_metal_2
+Ns 54.901961
+Ka 0.000000 0.000000 0.000000
+Kd 0.309800 0.309800 0.309800
+Ks 1.026000 1.026000 1.026000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd ../../Textures/marble_darkBlack_1.jpg
+
+newmtl st_wood.001
+Ns 60.784314
+Ka 0.000000 0.000000 0.000000
+Kd 0.709800 0.596100 0.560800
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd ../../Textures/marble_lightBrown_2.jpg
