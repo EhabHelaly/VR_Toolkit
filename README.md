@@ -1,4 +1,4 @@
-# VR_Toolkit
+# VR Toolkit
 An immersive yet affordable VR toolkit, for an application where user designs their dream houses as easy as thinking of it.
 ![Image](https://github.com/EhabHelaly/VR_Toolkit/blob/master/ScreenShots/hw_toolkit.jpg)
 ![Image](https://github.com/EhabHelaly/VR_Toolkit/blob/master/ScreenShots/10.jpg)
