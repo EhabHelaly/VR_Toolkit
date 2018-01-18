@@ -1,7 +1,7 @@
 # VR_Toolkit
 An immersive yet affordable VR toolkit, for an application where user designs their dream houses as easy as thinking of it.
-.. image:: https://github.com/EhabHelaly/VR_Toolkit/blob/master/ScreenShots/hw_toolkit.jpg
-.. image:: https://github.com/EhabHelaly/VR_Toolkit/blob/master/ScreenShots/10.jpg
+![Image](https://github.com/EhabHelaly/VR_Toolkit/blob/master/ScreenShots/hw_toolkit.jpg)
+![Image](https://github.com/EhabHelaly/VR_Toolkit/blob/master/ScreenShots/10.jpg)
 
 Depanancies
 ===========
@@ -11,8 +11,8 @@ Depanancies
 
 Hardware
 ========
-.. image:: https://github.com/EhabHelaly/VR_Toolkit/blob/master/ScreenShots/hw_hand_gadget.jpg
-.. image:: https://github.com/EhabHelaly/VR_Toolkit/blob/master/ScreenShots/hw_cameras.jpg
+![Image](https://github.com/EhabHelaly/VR_Toolkit/blob/master/ScreenShots/hw_hand_gadget.jpg)
+![Image](https://github.com/EhabHelaly/VR_Toolkit/blob/master/ScreenShots/hw_cameras.jpg)
 * ATMEL AVR Micro controller
 * ESP8266
 * MPU6050
@@ -30,8 +30,8 @@ Supported Mobile Apps
 
 Sample images
 =============
-.. image:: https://github.com/EhabHelaly/VR_Toolkit/blob/master/ScreenShots/1.jpg
-.. image:: https://github.com/EhabHelaly/VR_Toolkit/blob/master/ScreenShots/5.jpg
-.. image:: https://github.com/EhabHelaly/VR_Toolkit/blob/master/ScreenShots/12.jpg
-.. image:: https://github.com/EhabHelaly/VR_Toolkit/blob/master/ScreenShots/11.jpg
-.. image:: https://github.com/EhabHelaly/VR_Toolkit/blob/master/ScreenShots/13.jpg
+![Image](https://github.com/EhabHelaly/VR_Toolkit/blob/master/ScreenShots/1.jpg)
+![Image](https://github.com/EhabHelaly/VR_Toolkit/blob/master/ScreenShots/5.jpg)
+![Image](https://github.com/EhabHelaly/VR_Toolkit/blob/master/ScreenShots/12.jpg)
+![Image](https://github.com/EhabHelaly/VR_Toolkit/blob/master/ScreenShots/11.jpg)
+![Image](https://github.com/EhabHelaly/VR_Toolkit/blob/master/ScreenShots/13.jpg)
