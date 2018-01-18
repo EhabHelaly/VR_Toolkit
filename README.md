@@ -1,7 +1,6 @@
 # VR Toolkit
 An immersive yet affordable VR toolkit, for an application where user designs their dream houses as easy as thinking of it.
-Full Project Description [here!](https://drive.google.com/open?id=1B5nrhc0jkBZYwOeLX-Bp9c4Hi67hSx12)
-
+Project Description [here](https://drive.google.com/open?id=1B5nrhc0jkBZYwOeLX-Bp9c4Hi67hSx12).
 ![Image](https://github.com/EhabHelaly/VR_Toolkit/blob/master/ScreenShots/hw_toolkit.jpg)
 ![Image](https://github.com/EhabHelaly/VR_Toolkit/blob/master/ScreenShots/10.jpg)
 
