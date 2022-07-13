@@ -74,8 +74,9 @@ private:
     HANDLE  _threadHandle;
     DWORD   _threadID;
 
+#ifdef VR_APP_N_KIT_ACTIVE
     // VR App related
     VrKit _vrKit;
     VrApp _vrApp;
-
+#endif // VR_APP_N_KIT_ACTIVE
 };

@@ -14,8 +14,6 @@
 #include <glm/gtx/transform.hpp>
 #include <glm/gtx/intersect.hpp>
 
-#define VR_APP_N_KIT_ACTIVE
-
 using namespace std;
 using namespace glm;
 
@@ -118,8 +116,10 @@ void Scene::release()
         delModel(_models_2D[0]);
 
 
+    #ifdef VR_APP_N_KIT_ACTIVE
     // VR App
     _vrKit.release();
+    #endif // VR_APP_N_KIT_ACTIVE
 
 }
 void Scene::processInputSDL()
@@ -284,6 +284,7 @@ void Scene::processInputSDL()
     ge::rotateTo   (_models[0],&_camera,-1.0f*_camera.orientation+mouse_diviations);
     #endif // VR_APP_N_KIT_ACTIVE
 }
+#ifdef VR_APP_N_KIT_ACTIVE
 void Scene::initialzeVR()
 {
     if (!_vrKit.init(VR_POSITION_TRACKING|VR_ORIENTATION_TRACKING))
@@ -652,6 +653,7 @@ void Scene::processInputVR()
     _models_2D[VR_M_FORWARD]->shown=_vrKit.buttonIsOn(2);
 
 }
+#endif // VR_APP_N_KIT_ACTIVE
 bool Scene::loadScene(std::string sceneFileName)
 {
 	ifstream  sceneFile;

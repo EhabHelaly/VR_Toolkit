@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="VrApp" />
+		<Option title="GameEngine" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Release">
-				<Option output="VrApp" prefix_auto="1" extension_auto="1" />
+				<Option output="GameEngine" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -19,7 +19,6 @@
 			<Add option="-std=c++14" />
 			<Add option="-m32" />
 			<Add option="-fexceptions" />
-			<Add option="-DVR_APP_N_KIT_ACTIVE" />
 			<Add directory="include" />
 			<Add directory="E:/Programming/Files/OpenCV_v3_1/build/include" />
 			<Add directory="E:/Programming/Files/3rd-Party/include" />
@@ -28,7 +27,6 @@
 		<Linker>
 			<Add option="-m32" />
 			<Add option="-lcomdlg32" />
-			<Add option="-lws2_32" />
 			<Add option="-lglew32" />
 			<Add option="-lopengl32" />
 			<Add option="-lmingw32" />
@@ -57,15 +55,8 @@
 		<Unit filename="include/Map.h" />
 		<Unit filename="include/Model.h" />
 		<Unit filename="include/Scene.h" />
-		<Unit filename="include/VrApp.h" />
-		<Unit filename="include/VrCalibration.h" />
-		<Unit filename="include/VrCamera.h" />
-		<Unit filename="include/VrDetection.h" />
-		<Unit filename="include/VrGadget.h" />
-		<Unit filename="include/VrKit.h" />
 		<Unit filename="include/Window.h" />
 		<Unit filename="include/ge.h" />
-		<Unit filename="include/network.h" />
 		<Unit filename="include/transform.h" />
 		<Unit filename="src/Camera.cpp" />
 		<Unit filename="src/Errors.cpp" />
@@ -73,15 +64,8 @@
 		<Unit filename="src/Map.cpp" />
 		<Unit filename="src/Model.cpp" />
 		<Unit filename="src/Scene.cpp" />
-		<Unit filename="src/VrApp.cpp" />
-		<Unit filename="src/VrCalibration.cpp" />
-		<Unit filename="src/VrCamera.cpp" />
-		<Unit filename="src/VrDetection.cpp" />
-		<Unit filename="src/VrGadget.cpp" />
-		<Unit filename="src/VrKit.cpp" />
 		<Unit filename="src/Window.cpp" />
 		<Unit filename="src/main.cpp" />
-		<Unit filename="src/network.cpp" />
 		<Unit filename="src/transform.cpp" />
 		<Extensions />
 	</Project>
