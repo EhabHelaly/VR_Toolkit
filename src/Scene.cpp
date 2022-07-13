@@ -101,7 +101,7 @@ void Scene::run()
         #endif // VR_APP_N_KIT_ACTIVE
         render();
     }
-    saveScene("Scenes/lastSession.scene");
+    saveScene("Scenes/main.scene");
 }
 void Scene::release()
 {
