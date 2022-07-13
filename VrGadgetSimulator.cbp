@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="VrApp" />
+		<Option title="VrGadgetSimulator" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Release">
-				<Option output="VrApp" prefix_auto="1" extension_auto="1" />
+				<Option output="VrGadgetSimulator" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -26,13 +26,7 @@
 		</Compiler>
 		<Linker>
 			<Add option="-m32" />
-			<Add option="-lcomdlg32" />
 			<Add option="-lws2_32" />
-			<Add option="-lglew32" />
-			<Add option="-lopengl32" />
-			<Add option="-lmingw32" />
-			<Add option="-lSDL2main" />
-			<Add option="-lSDL2" />
 			<Add option="-lIphlpapi" />
 			<Add option="-lOle32" />
 			<Add option="-lOleAut32" />
@@ -48,40 +42,10 @@
 			<Add option="-lopencv_imgproc310.dll" />
 			<Add directory="E:/Programming/Files/3rd-Party/lib/x32" />
 			<Add directory="E:/Programming/Files/OpenCV_v3_1/build/lib" />
-			<Add directory="E:/Programming/Files/OpenGL/lib" />
 		</Linker>
-		<Unit filename="include/Camera.h" />
-		<Unit filename="include/Errors.h" />
-		<Unit filename="include/GLSLProgram.h" />
-		<Unit filename="include/Map.h" />
-		<Unit filename="include/Model.h" />
-		<Unit filename="include/Scene.h" />
-		<Unit filename="include/VrApp.h" />
-		<Unit filename="include/VrCalibration.h" />
-		<Unit filename="include/VrCamera.h" />
-		<Unit filename="include/VrDetection.h" />
-		<Unit filename="include/VrGadget.h" />
-		<Unit filename="include/VrKit.h" />
-		<Unit filename="include/Window.h" />
-		<Unit filename="include/ge.h" />
 		<Unit filename="include/network.h" />
-		<Unit filename="include/transform.h" />
-		<Unit filename="src/Camera.cpp" />
-		<Unit filename="src/Errors.cpp" />
-		<Unit filename="src/GLSLProgram.cpp" />
-		<Unit filename="src/Map.cpp" />
-		<Unit filename="src/Model.cpp" />
-		<Unit filename="src/Scene.cpp" />
-		<Unit filename="src/VrApp.cpp" />
-		<Unit filename="src/VrCalibration.cpp" />
-		<Unit filename="src/VrCamera.cpp" />
-		<Unit filename="src/VrDetection.cpp" />
-		<Unit filename="src/VrGadget.cpp" />
-		<Unit filename="src/VrKit.cpp" />
-		<Unit filename="src/Window.cpp" />
-		<Unit filename="src/main.cpp" />
+		<Unit filename="src/main_gadget_simulator.cpp" />
 		<Unit filename="src/network.cpp" />
-		<Unit filename="src/transform.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

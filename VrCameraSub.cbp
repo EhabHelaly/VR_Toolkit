@@ -12,32 +12,42 @@
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Option use_console_runner="0" />
-				<Compiler>
-					<Add option="-g" />
-					<Add directory="include" />
-				</Compiler>
-				<Linker>
-					<Add option="-lws2_32" />
-					<Add option="-lIphlpapi" />
-					<Add option="-lOleAut32" />
-					<Add option="-lOle32" />
-					<Add option="-lstrmiids" />
-				</Linker>
 			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+			<Add option="-m32" />
 			<Add option="-fexceptions" />
+			<Add directory="include" />
+			<Add directory="E:/Programming/Files/OpenCV_v3_1/build/include" />
+			<Add directory="E:/Programming/Files/3rd-Party/include" />
+			<Add directory="E:/Programming/Files/OpenGL/include" />
 		</Compiler>
+		<Linker>
+			<Add option="-m32" />
+			<Add option="-lws2_32" />
+			<Add option="-lIphlpapi" />
+			<Add option="-lOle32" />
+			<Add option="-lOleAut32" />
+			<Add option="-lstrmiids" />
+			<Add option="-lopencv_calib3d310.dll" />
+			<Add option="-lopencv_features2d310.dll" />
+			<Add option="-lopencv_objdetect310.dll" />
+			<Add option="-lopencv_video310.dll" />
+			<Add option="-lopencv_videoio310.dll" />
+			<Add option="-lopencv_core310.dll" />
+			<Add option="-lopencv_highgui310.dll" />
+			<Add option="-lopencv_imgcodecs310.dll" />
+			<Add option="-lopencv_imgproc310.dll" />
+			<Add directory="E:/Programming/Files/3rd-Party/lib/x32" />
+			<Add directory="E:/Programming/Files/OpenCV_v3_1/build/lib" />
+		</Linker>
 		<Unit filename="include/network.h" />
 		<Unit filename="include/VrCamera.h" />
 		<Unit filename="src/network.cpp" />
 		<Unit filename="src/VrCamera.cpp" />
 		<Unit filename="src/main_camera_sub.cpp" />
-		<Extensions>
-			<code_completion />
-			<envvars />
-			<debugger />
-		</Extensions>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
