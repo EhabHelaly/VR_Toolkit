@@ -1,0 +1,8 @@
+Models/*
+ScreenShots/*
+*.exe
+*.o
+*.d
+*.mp4
+*.depend
+*.layout
