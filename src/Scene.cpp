@@ -1022,10 +1022,11 @@ int Scene::loadingThread()
             {
                 _window.bindContext();
                 _loadingStatus=true;
+                DWORD time=GetTickCount();
 
                 if (model->load())
                 {
-                    //cout<<"loaded "<<model->modelFileName<<endl;
+                    cout<<"loaded "<<GetTickCount()-time<<" "<<model->modelFileName<<endl;
                 }
                 else
                 {
