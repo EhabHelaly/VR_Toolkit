@@ -19,6 +19,8 @@ using namespace glm;
 
 int modelLoadingThread(void* world);
 
+float exponent=5;
+
 Scene::Scene()
 {
     // Window settings
@@ -193,6 +195,16 @@ void Scene::processInputSDL()
                             std::string fileName2=getFileName("mtl\0*.mtl\0");
                             _activeModel->updateMaterials(fileName2);
                         }
+                        break;
+                    }
+                    case SDLK_7:
+                    {
+                        exponent+=1;
+                        break;
+                    }
+                    case SDLK_8:
+                    {
+                        exponent-=1;
                         break;
                     }
 
@@ -925,6 +937,8 @@ void Scene::renderModel(Model* model, bool transparency)
         _shader.setVec3("mat.Ke",obj->material->emission);
         // depth
         _shader.setFloat("mat.depth",obj->material->depth);
+        // exponent
+        _shader.setFloat("exp",exponent);
 
         obj->draw();
     }

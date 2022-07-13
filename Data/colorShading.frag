@@ -53,6 +53,7 @@ uniform Maps maps;
 uniform Material mat;
 
 uniform float cosTime;
+uniform float exp;
 
 void main()
 {
@@ -168,7 +169,7 @@ void main()
 				float cosAlpha = max( dot( E,R ), 0.0 );
 
 				sumKd+=lights[s].color * lights[s].power * (cosTheta/2+ 0.5)	    / pow(distance,0.5);
-				sumKs+=lights[s].color * lights[s].power * pow(cosAlpha,5)         / pow(distance,0.5);
+				sumKs+=lights[s].color * lights[s].power * pow(cosAlpha,exp)         / pow(distance,0.5);
 				break;
 			}
 			case LIGHT_SOURCE_POINT_REALISTIC:
@@ -184,7 +185,7 @@ void main()
 				float cosAlpha = max( dot( E,R ), 0.0 );
 
 				sumKd+=lights[s].color * lights[s].power *10 * (cosTheta/2+ 0.5)  / (distance*distance);
-				sumKs+=lights[s].color * lights[s].power *10 * pow(cosAlpha,11)   / (distance*distance);
+				sumKs+=lights[s].color * lights[s].power *10 * pow(cosAlpha,exp)   / (distance*distance);
 				break;
 			}
 			case LIGHT_SOURCE_DIRECTIONAL:
@@ -196,7 +197,7 @@ void main()
 				float cosAlpha = clamp( dot( E,R ), 0,1 );
 
 				sumKd+=lights[s].color * lights[s].power * (cosTheta/2+ 0.5)     /100;
-				sumKs+=lights[s].color * lights[s].power * (pow(cosAlpha,11)*3) /100;
+				sumKs+=lights[s].color * lights[s].power * (pow(cosAlpha,exp)*3) /100;
 				break;
 			}
 			case LIGHT_SOURCE_OFF:
